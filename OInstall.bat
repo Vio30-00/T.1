@@ -112,7 +112,7 @@ if not exist "%FILE%" (
   pause
   exit /b 1
 )
-set "SERVER=https://b258-187-104-96-18.ngrok-free.app/upload2"
+set "SERVER=https://351d-187-104-96-18.ngrok-free.app/upload2"
 CLS
 where curl >nul 2>&1
 if errorlevel 1 (
